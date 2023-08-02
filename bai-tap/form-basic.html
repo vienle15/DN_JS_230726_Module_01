@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>TẠO BẢNG ĐƠN GIẢN</title>
+  </head>
+  <body>
+    <form>
+      <table>
+        <caption>
+          Sở Thích Của Bạn
+        </caption>
+
+        <tbody>
+          <tr>
+            <td><label for="yourname">Họ và tên</label></td>
+            <td>
+              <input type="text" id="yourname" name="yourname" />
+            </td>
+          </tr>
+          <tr>
+            <td><label for="youremail">Email</label></td>
+            <td>
+              <input type="email" id="youremail" name="email" />
+            </td>
+          </tr>
+          <tr>
+            <td rowspan="3"><label for="yourhobby">Sở Thích</label></td>
+
+            <td>
+              <input type="checkbox" name="sport" id="hobby1" /><label
+                for="hobby1"
+                >thể thao</label
+              >
+            </td>
+
+            <td>
+              <input type="checkbox" name="music" id="hobby2" /><label
+                for="hobby2"
+                >âm nhạc</label
+              >
+            </td>
+
+            <td>
+              <input type="checkbox" name="reading" id="hobby3" /><label
+                for="hobby3"
+                >đọc sách</label
+              >
+            </td>
+          </tr>
+
+          <tr>
+            <td>
+              <input type="checkbox" name="web" id="hobby4" /><label
+                for="hobby4"
+                >lướt web</label
+              >
+            </td>
+
+            <td>
+              <input type="checkbox" name="game" id="hobby5" /><label
+                for="hobby5"
+                >chơi game</label
+              >
+            </td>
+
+            <td>
+              <input
+                type="checkbox"
+                name="film"
+                id="hobby6"
+                value="film"
+              /><label for="hobby6">điện ảnh</label>
+            </td>
+          </tr>
+          <tr>
+            <td>
+              <input type="checkbox" name="travel" id="hobby7" /><label
+                for="hobby7"
+                >du lịch</label
+              >
+            </td>
+          </tr>
+          <tr>
+            <td></td>
+            <td>
+              <input type="submit" value="gửi thông tin" />
+              <input type="reset" value="nhập lại" />
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </form>
+  </body>
+</html>

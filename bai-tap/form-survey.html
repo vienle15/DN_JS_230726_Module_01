@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Form-Survey</title>
+    <style>
+      select {
+        width: 50%;
+      }
+
+      textarea {
+        width: 100%;
+      }
+    </style>
+  </head>
+
+  <body>
+    <header>
+      <h2>Market Research Survey</h2>
+    </header>
+    <p>Please take a few moments to complete this satisfaction survey</p>
+    <hr />
+    <h4>What is your age range?</h4>
+    <label for="age"></label><br />
+    <select name="yourage" id="age">
+      <option value="">18-24</option>
+      <option value="">24-32</option>
+      <option value="">32-40</option>
+      <option value="">40-99</option>
+    </select>
+    <br />
+    <h4>what is your yearly income range?</h4>
+    <label for="income"></label><br />
+    <select name="yourincome" id="income">
+      <option value="">$0-$25000</option>
+      <option value="">$25000-$50000</option>
+      <option value="">$50000-$100000</option>
+      <option value="">Over $100000</option>
+    </select>
+    <br />
+    <h4>Gender</h4>
+    <input type="radio" id="gender1" value="Male" name="gender" />
+    <label for="gender1">Male</label>
+    <br />
+    <input type="radio" id="gender2" value="Female" name="gender" />
+    <label for="gender2">Female</label>
+    <br />
+    <h4>
+      Which of the following products have your purchased in the last 2 months.
+      Please check all that apply.
+    </h4>
+    <input type="checkbox" id="Product 1" value="Product 1" name="Product" />
+    <label for="Product 1">Product 1</label><br />
+    <input type="checkbox" id="Product 2" value="Product 2" name="Product" />
+    <label for="Product 2">Product 2</label><br />
+    <input type="checkbox" id="Product 3" value="Product 3" name="Product" />
+    <label for="Product 3">Product 3</label><br />
+    <br />
+    <h4>How often would you use our product</h4>
+    <input type="radio" id="Daily" value="Daily" name="Often" />
+    <label for="Daily">Daily</label><br />
+    <input type="radio" id="Weekly" value="Weekly" name="Often" />
+    <label for="Weekly">Weekly</label><br />
+    <input type="radio" id="Monthly" value="Monthly" name="Often" />
+    <label for="Monthly">Monthly</label><br />
+    <br />
+    <h4>What would you pay for the new product?</h4>
+    <table>
+      <tr>
+        <td>$</td>
+        <td><input type="text" id="money" /></td>
+        <td>.</td>
+        <td><input type="text" /></td>
+      </tr>
+      <tr>
+        <td></td>
+        <td>Dollars</td>
+        <td></td>
+        <td>Cents</td>
+      </tr>
+    </table>
+    <br />
+    <h4>What features would you like to see in the new product?</h4>
+    <label for="opinion"></label>
+    <textarea name="" id="opinion" cols="40" rows="20"></textarea>
+    <br />
+    <br />
+    <br />
+    <table border="1">
+      <caption>
+        Please rate your level of agreement with the following statements?
+      </caption>
+      <tbody>
+        <tr>
+          <td></td>
+          <td>Strongly disagree</td>
+          <td>Disagree</td>
+          <td>Agree</td>
+          <td>Strongly Agree</td>
+        </tr>
+        <tr>
+          <td>Our Product are price fairly</td>
+          <td>
+            <input type="radio" id="op1_r1" value="1" name="option" /><label
+              for="op1_r1"
+              >1</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op2_r1" value="2" name="option" /><label
+              for="op2_r1"
+              >2</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op3_r1" value="3" name="option" /><label
+              for="op3_r1"
+              >3</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op4_r1" value="4" name="option" /><label
+              for="op4_r1"
+              >4</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Our product is high quality</td>
+          <td>
+            <input type="radio" id="op1_r2" value="1" name="option2" /><label
+              for="op1_r2"
+              >1</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op2_r2" value="2" name="option2" /><label
+              for="op2_r2"
+              >2</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op3_r2" value="3" name="option2" /><label
+              for="op3_r2"
+              >3</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op4_r2" value="4" name="option2" /><label
+              for="op4_r2"
+              >4</label
+            >
+          </td>
+        </tr>
+        <tr>
+          <td>Recommend our products to your friends?</td>
+          <td>
+            <input type="radio" id="op1_r3" value="1" name="option3" /><label
+              for="op1_r3"
+              >1</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op2_r3" value="2" name="option3" /><label
+              for="op2_r3"
+              >2</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op3_r3" value="3" name="option3" /><label
+              for="op3_r3"
+              >3</label
+            >
+          </td>
+
+          <td>
+            <input type="radio" id="op4_r3" value="4" name="option3" /><label
+              for="op4_r3"
+              >4</label
+            >
+          </td>
+        </tr>
+      </tbody>
+    </table>
+    <br />
+    <input type="Submit" value="Submit" />
+  </body>
+</html>

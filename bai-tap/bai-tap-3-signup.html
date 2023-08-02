@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <style>
+      input {
+        text-align: left;
+      }
+      form > div {
+        margin-bottom: 10px;
+      }
+    </style>
+  </head>
+  <body>
+    <form>
+      <header><h2>Sign Up</h2></header>
+      <p>Please fill in this form to create an account</p>
+
+      <div>
+        <label for="username"><i class="fa-solid fa-user"></i></label>
+        <input type="text" placeholder="Username" />
+      </div>
+
+      <div>
+        <label for="email"><i class="fa-solid fa-envelope"></i></label>
+        <input type="email" placeholder="Enter your email" />
+      </div>
+
+      <div>
+        <label for="password"><i class="fa-solid fa-lock"></i></label>
+        <input type="password" placeholder="Enter password" />
+      </div>
+
+      <div>
+        <label for="confirm password"><i class="fa-solid fa-repeat"></i></label>
+        <input type="password" placeholder="Confirm password" />
+      </div>
+      <div>
+        <input type="checkbox" name="" id="cb" />
+        <label for="cb"
+          >I accept the <a href="#" target="_blank">terms of use</a> and
+          <a href="#" target="_blank">privacy policy</a>
+        </label>
+      </div>
+
+      <input type="submit" value="SIGN UP" />
+    </form>
+  </body>
+</html>
