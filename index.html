@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Session 02 - Table</title>
+    <style>
+      header{
+          color: red
+          margin: 30px;
+          text-align: center;
+
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>Session 02 - table - module 01 - 01.08.2023</h1>
+    </header>
+    <main>
+      <section>
+        <table border="=1">
+          <tr>
+            <td>columu 1</td>
+            <td>columu 2</td>
+            <td>columu 3</td>
+          </tr>
+
+          <tr>
+            <td rowspan="2">row 2 cell 1</td>
+            <td>columu 2</td>
+            <td>columu 3</td>
+          </tr>
+
+          <tr>
+            <td>columu 2</td>
+            <td>columu 3</td>
+          </tr>
+
+          <tr>
+            <td colspan="3">row 3 cell 1</td>
+          </tr>
+        </table>
+        <p>chú thích</p>
+      </section>
+
+      <section>
+        <h3>Các thẻ của table</h3>
+        <p>thẻ caption</p>
+        <p>thẻ thead</p>
+        <p>thẻ body</p>
+        <p>thẻ tfoot</p>
+      </section>
+
+      <section>
+        <h3>ví dụ về table với các thẻ &lt; thead &gt;, tfoot, tbody</h3>
+        <table border="4">
+          <tbody>
+            <td>31</td>
+            <td>1</td>
+            <td>2</td>
+            <td>3</td>
+            <td>4</td>
+            <td>5</td>
+            <td>6</td>
+          </tbody>
+          <thead>
+            <tr>
+              <th>Mon</th>
+              <th>Tue</th>
+              <th>Wed</th>
+              <th>Thu</th>
+              <th>Fri</th>
+              <th>Sat</th>
+              <th>Sun</th>
+            </tr>
+          </thead>
+        </table>
+      </section>
+
+      <section>
+        <h3>một số thẻ mới trong html5</h3>
+
+        <p>tiến trình làm việc</p>
+        <div><progress max="100" value="80"></progress> <span> 80% </span></div>
+        <progress max="160" value="80"></progress> <span> 50% </span>
+        <progress max="10" value="100"></progress> <span> 100% </span>
+      </section>
+    </main>
+  </body>
+</html>
