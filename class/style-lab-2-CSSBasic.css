@@ -1,0 +1,16 @@
+h2 {
+  text-transform: capitalize;
+  color: white;
+}
+p {
+  color: white;
+}
+header {
+  background-image: url("https://i.pinimg.com/originals/51/3f/97/513f97ec6d458f2eb53aa8ec60db9c15.jpg");
+  text-align: center;
+  border: 1px solid black;
+}
+button {
+  background-color: #e3533d;
+  color: white;
+}

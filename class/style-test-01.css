@@ -1,0 +1,12 @@
+header {
+  color: white;
+  background-color: black;
+  text-align: center;
+  padding: 30px;
+}
+section {
+  color: gray;
+  text-align: center;
+  background-color: gainsboro;
+  padding: 30px;
+}

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style-lab-6-CSSBasic.css" />
+  </head>
+  <body>
+    <form id="form-credit">
+      <h1>Select Card</h1>
+      <div class="list-icon">
+        <div class="image">
+          <label for="master">
+            <img src="./images/mastercard icon" alt="" />
+          </label>
+
+          <input type="radio" name="credit" id="master" value="master" />
+        </div>
+        <div class="image">
+          <label for="visa">
+            <img src="./images/visa icon" alt="" />
+          </label>
+
+          <input type="radio" name="credit" id="visa" value="visa" />
+        </div>
+        <div class="image">
+          <label for="american">
+            <img src="./images/American-Express icon" alt="" />
+          </label>
+
+          <input type="radio" name="credit" id="american" value="american" />
+        </div>
+        <div class="image">
+          <label for="paypal">
+            <img src="./images/Paypal icon" alt="" />
+          </label>
+
+          <input type="radio" name="credit" id="paypal" value="paypal" />
+        </div>
+        <div class="image">
+          <label for="discover">
+            <img src="./images/discover icon" alt="" />
+          </label>
+
+          <input type="radio" name="credit" id="discover" value="discover" />
+        </div>
+      </div>
+      <hr />
+      <div class="input-group">
+        <label for="card">Card Number</label><br />
+        <input type="text" id="card" />
+      </div>
+      <div class="row">
+        <div class="input-group">
+          <label for="epr">Expire Date</label><br />
+          <input type="text" id="epr" />
+        </div>
+        <div class="input-group">
+          <label for="ccv">CVC/CCV</label><br />
+          <input type="password" placeholder="MM/YY" />
+        </div>
+      </div>
+      <button>Submit</button>
+    </form>
+  </body>
+</html>
